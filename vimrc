@@ -29,3 +29,14 @@ set tabstop=4
 "--------------"
 let g:quickrun_config = {}
 let g:quickrun_config._ = { 'into': 1 }
+
+"-----"
+" ale "
+"-----"
+highlight ALEErrorSign NONE
+highlight ALEWarningSign NONE
+highlight SignColumn NONE
+let g:ale_sign_warning = '🤔'
+let g:ale_sign_error = '😵'
+let g:ale_linters = {}
+let g:ale_linters.python = ['flake8']

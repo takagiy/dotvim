@@ -1,6 +1,7 @@
 [submodule "pack/submodules/start/vim-quickrun"]
 	path = pack/submodules/start/vim-quickrun
 	url = https://github.com/thinca/vim-quickrun.git
+	ignore = dirty
 [submodule "pack/submodules/start/ale"]
 	path = pack/submodules/start/ale
 	url = https://github.com/w0rp/ale.git
