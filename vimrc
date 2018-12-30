@@ -21,6 +21,9 @@ set listchars=eol:.,tab:»\
 set expandtab
 set tabstop=4
 
+" Highlight texts that I am searching
+set hlsearch
+
 "================="
 " plugin settings "
 "================="
