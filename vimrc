@@ -32,16 +32,3 @@ set hlsearch
 "--------------"
 let g:quickrun_config = {}
 let g:quickrun_config._ = { 'into': 1 }
-
-"-----"
-" ale "
-"-----"
-highlight ALEErrorSign NONE
-highlight ALEWarningSign NONE
-highlight SignColumn NONE
-highlight ALEError ctermfg=red cterm=bold,underline
-highlight ALEWarning ctermfg=cyan cterm=bold,underline
-let g:ale_sign_error = '😵'
-let g:ale_sign_warning = '🤔'
-let g:ale_linters = {}
-let g:ale_linters.python = ['pyls']
