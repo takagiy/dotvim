@@ -39,4 +39,4 @@ let g:quickrun_config._ = { 'into': 1 }
 "---------"
 let g:lsc_server_commands = {}
 let g:lsc_server_commands.python = 'pyls'
-let g:lsc_server_commands.cpp = 'cquery --init="{ \"cacheDirectory\": \"'.$HOME.'/.cache/cquery\" }"'
+let g:lsc_server_commands.cpp = 'ccls --init="{ \"cacheDirectory\": \".ccls-cache\" }"'
