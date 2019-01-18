@@ -33,40 +33,10 @@ set hlsearch
 let g:quickrun_config = {}
 let g:quickrun_config._ = { 'into': 1 }
 
-"------------------"
-" asyncomplete.vim "
-"------------------"
-let g:lsp_signs_enabled = 1
-let g:lsp_diagnostics_echo_cursor = 1
-let g:lsp_dignostics_echo_delay = 50
-let g:lsp_signs_error = {'text': '😱'}
-let g:lsp_signs_warning = {'text': '🤔'}
 
-set completeopt+=preview
-highlight SignColumn NONE
-
-"if executable('clangd')
-"    au User lsp_setup call lsp#register_server({
-"        \ 'name': 'clangd',
-"        \ 'cmd': {server_info->['clangd']},
-"        \ 'whitelist': ['c', 'cpp', 'objc', 'objcpp'],
-"        \ })
-"endif
-
-if executable('cquery')
-   au User lsp_setup call lsp#register_server({
-      \ 'name': 'cquery',
-      \ 'cmd': {server_info->['cquery']},
-      \ 'root_uri': {server_info->lsp#utils#path_to_uri(lsp#utils#find_nearest_parent_file_directory(lsp#utils#get_buffer_path(), '.cquery'))},
-      \ 'initialization_options': { 'cacheDirectory': expand('~/.cache/cquery') },
-      \ 'whitelist': ['c', 'cpp', 'objc', 'objcpp', 'cc'],
-      \ })
-endif
-
-if executable('pyls')
-    au User lsp_setup call lsp#register_server({
-        \ 'name': 'pyls',
-        \ 'cmd': {server_info->['pyls']},
-        \ 'whitelist': ['python'],
-        \ })
-endif
+"---------"
+" vim-lsc "
+"---------"
+let g:lsc_server_commands = {}
+let g:lsc_server_commands.python = 'pyls'
+let g:lsc_server_commands.cpp = 'cquery --init="{ \"cacheDirectory\": \"'.$HOME.'/.cache/cquery\" }"'
