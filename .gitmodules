@@ -5,3 +5,6 @@
 [submodule "pack/submodules/start/vim-lsc"]
 	path = pack/submodules/start/vim-lsc
 	url = https://github.com/natebosch/vim-lsc.git
+[submodule "pack/preload-submodules/start/vim-rooter"]
+	path = pack/preload-submodules/start/vim-rooter
+	url = https://github.com/airblade/vim-rooter.git
