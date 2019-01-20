@@ -2,18 +2,9 @@
 	path = pack/submodules/start/vim-quickrun
 	url = https://github.com/thinca/vim-quickrun.git
 	ignore = dirty
-[submodule "pack/submodules/start/asyncomplete.vim"]
-	path = pack/submodules/start/asyncomplete.vim
-	url = https://github.com/prabirshrestha/asyncomplete.vim.git
-[submodule "pack/submodules/start/async.vim"]
-	path = pack/submodules/start/async.vim
-	url = https://github.com/prabirshrestha/async.vim.git
-[submodule "pack/submodules/start/vim-lsp"]
-	path = pack/submodules/start/vim-lsp
-	url = https://github.com/prabirshrestha/vim-lsp
-[submodule "pack/submodules/start/asyncomplete-lsp.vim"]
-	path = pack/submodules/start/asyncomplete-lsp.vim
-	url = https://github.com/prabirshrestha/asyncomplete-lsp.vim
+[submodule "pack/submodules/start/vim-lsc"]
+	path = pack/submodules/start/vim-lsc
+	url = https://github.com/natebosch/vim-lsc.git
 [submodule "pack/preload-submodules/start/vim-rooter"]
 	path = pack/preload-submodules/start/vim-rooter
 	url = https://github.com/airblade/vim-rooter.git
