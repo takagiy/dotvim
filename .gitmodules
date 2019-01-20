@@ -14,3 +14,6 @@
 [submodule "pack/submodules/start/asyncomplete-lsp.vim"]
 	path = pack/submodules/start/asyncomplete-lsp.vim
 	url = https://github.com/prabirshrestha/asyncomplete-lsp.vim
+[submodule "pack/preload-submodules/start/vim-rooter"]
+	path = pack/preload-submodules/start/vim-rooter
+	url = https://github.com/airblade/vim-rooter.git
