@@ -8,3 +8,6 @@
 [submodule "pack/preload-submodules/start/vim-rooter"]
 	path = pack/preload-submodules/start/vim-rooter
 	url = https://github.com/airblade/vim-rooter.git
+[submodule "pack/submodules/start/vim-airline"]
+	path = pack/submodules/start/vim-airline
+	url = http://github.com/vim-airline/vim-airline.git
