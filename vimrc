@@ -31,7 +31,7 @@ set hlsearch
 " vim-quickrun "
 "--------------"
 let g:quickrun_config = {}
-let g:quickrun_config._ = { 'into': 1 }
+let g:quickrun_config._ = { 'into': 1, 'runner': 'job' }
 
 
 "---------"
