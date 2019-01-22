@@ -20,6 +20,7 @@ set listchars=eol:.,tab:»\
 " Expand tabs
 set expandtab
 set tabstop=4
+set shiftwidth=4
 
 " Highlight texts that I am searching
 set hlsearch
