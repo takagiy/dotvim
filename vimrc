@@ -4,6 +4,12 @@
 " Load defalut settings
 source $VIMRUNTIME/defaults.vim
 
+"-------------"
+" preferences "
+"-------------"
+" To render graphical characters correctoly
+set ambiwidth=double
+
 "---------"
 " editing "
 "---------"
