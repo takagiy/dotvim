@@ -4,6 +4,9 @@
 " Load defalut settings
 source $VIMRUNTIME/defaults.vim
 
+"---------"
+" editing "
+"---------"
 " Flowing cursor over end of line
 set virtualedit=all
 
@@ -25,6 +28,12 @@ set shiftwidth=4
 " Highlight texts that I am searching
 set hlsearch
 
+"--------"
+" keymap "
+"--------"
+" Exit terminal-job mode
+tmap <Esc><Esc> <C-w>N 
+
 "================="
 " plugin settings "
 "================="
@@ -33,7 +42,6 @@ set hlsearch
 "--------------"
 let g:quickrun_config = {}
 let g:quickrun_config._ = { 'into': 1, 'runner': 'job' }
-
 
 "---------"
 " vim-lsc "
