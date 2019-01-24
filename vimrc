@@ -49,12 +49,16 @@ tmap <Esc><Esc> <C-w>N
 let g:quickrun_config = {}
 let g:quickrun_config._ = { 'into': 1, 'runner': 'job' }
 
-"---------"
-" vim-lsc "
-"---------"
-let g:lsc_server_commands = {}
-let g:lsc_server_commands.python = 'pyls'
-let g:lsc_server_commands.cpp = 'cquery --init="{ \"cacheDirectory\": \"'.$HOME.'/.cache/cquery\" }"'
+"-----------------------"
+" LanguageClient-neovim "
+"-----------------------"
+let g:LanguageClient_serverCommands = {}
+let g:LanguageClient_serverCommands.python = ['pyls']
+let g:LanguageClient_serverCommands.cpp = ['cquery',
+            \'--init='.json_encode({
+            \   'cacheDirectory': expand('~/.cache/cquery'),
+            \   'filterAndSort': v:false
+            \})]
 
 "-------------"
 " vim-airline "
