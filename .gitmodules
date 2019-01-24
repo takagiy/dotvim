@@ -2,9 +2,6 @@
 	path = pack/submodules/start/vim-quickrun
 	url = https://github.com/thinca/vim-quickrun.git
 	ignore = dirty
-[submodule "pack/submodules/start/vim-lsc"]
-	path = pack/submodules/start/vim-lsc
-	url = https://github.com/natebosch/vim-lsc.git
 [submodule "pack/preload-submodules/start/vim-rooter"]
 	path = pack/preload-submodules/start/vim-rooter
 	url = https://github.com/airblade/vim-rooter.git
@@ -14,3 +11,6 @@
 [submodule "pack/submodules/start/vim-fugitive"]
 	path = pack/submodules/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "pack/submodules/start/LanguageClient-neovim"]
+	path = pack/submodules/start/LanguageClient-neovim
+	url = https://github.com/autozimu/LanguageClient-neovim.git
