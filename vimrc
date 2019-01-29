@@ -7,7 +7,7 @@ source $VIMRUNTIME/defaults.vim
 "-------------"
 " preferences "
 "-------------"
-" To render graphical characters correctoly
+" To render graphical characters correctly
 set ambiwidth=double
 
 "---------"
