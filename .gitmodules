@@ -17,3 +17,6 @@
 [submodule "pack/submodules/start/elm-vim"]
 	path = pack/submodules/start/elm-vim
 	url = https://github.com/ElmCast/elm-vim.git
+[submodule "pack/submodules/start/vim-pug"]
+	path = pack/submodules/start/vim-pug
+	url = https://github.com/digitaltoad/vim-pug.git
