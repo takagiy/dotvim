@@ -15,8 +15,8 @@
 	path = pack/submodules/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule "pack/submodules/start/elm-vim"]
-	path = pack/submodules/start/elm-vim
+	path = pack/language-supports/start/elm-vim
 	url = https://github.com/ElmCast/elm-vim.git
 [submodule "pack/submodules/start/vim-pug"]
-	path = pack/submodules/start/vim-pug
+	path = pack/language-supports/start/vim-pug
 	url = https://github.com/digitaltoad/vim-pug.git
