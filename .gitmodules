@@ -20,3 +20,6 @@
 [submodule "pack/submodules/start/vim-pug"]
 	path = pack/language-supports/start/vim-pug
 	url = https://github.com/digitaltoad/vim-pug.git
+[submodule "pack/language-supports/start/vim-pony"]
+	path = pack/language-supports/start/vim-pony
+	url = https://github.com/jakwings/vim-pony.git
