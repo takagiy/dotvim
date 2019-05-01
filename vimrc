@@ -40,6 +40,9 @@ set hlsearch
 " Exit terminal-job mode
 tmap <Esc><Esc> <C-w>N 
 
+" Enter ex-command mode
+nnoremap ; :
+
 "================="
 " plugin settings "
 "================="
