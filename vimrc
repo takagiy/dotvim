@@ -37,6 +37,9 @@ set hlsearch
 "--------"
 " keymap "
 "--------"
+" jj to escape
+inoremap jj <Esc>
+
 " Exit terminal-job mode
 tmap <Esc><Esc> <C-w>N 
 
