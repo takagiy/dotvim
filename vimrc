@@ -71,3 +71,8 @@ let g:lsc_server_commands.cpp = 'cquery --init="{ \"cacheDirectory\": \"'.$HOME.
 " vim-airline "
 "-------------"
 let g:airline_powerline_fonts = 1
+
+"-----------"
+" vim-dcrpc "
+"-----------"
+let g:dcrpc_autostart = 1
