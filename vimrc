@@ -8,7 +8,7 @@ source $VIMRUNTIME/defaults.vim
 " preferences "
 "-------------"
 " To render graphical characters correctly
-set ambiwidth=double
+set ambiwidth=single
 
 "---------"
 " editing "
