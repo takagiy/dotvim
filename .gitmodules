@@ -26,3 +26,6 @@
 [submodule "pack/submodules/start/vim-dcrpc"]
 	path = pack/submodules/start/vim-dcrpc
 	url = https://gitlab.com/betseg/vim-dcrpc.git
+[submodule "pack/language-supports/start/satysfi.vim"]
+	path = pack/language-supports/start/satysfi.vim
+	url = https://github.com/qnighy/satysfi.vim.git
