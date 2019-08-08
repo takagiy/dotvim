@@ -76,3 +76,9 @@ let g:airline_powerline_fonts = 1
 " vim-dcrpc "
 "-----------"
 let g:dcrpc_autostart = 1
+
+"---------------"
+" limelight.vim "
+"---------------"
+let g:limelight_conceal_ctermfg = 'grey'
+autocmd VimEnter * Limelight
